@@ -134,3 +134,6 @@ pyenv.cfg
 pyvenv.cfg
 pip-selfcheck.json
 .vscode/settings.json
+config.txt
+config.ini
+config.yaml
