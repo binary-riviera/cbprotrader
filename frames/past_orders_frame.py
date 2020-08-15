@@ -1,4 +1,5 @@
 from PyQt5.QtWidgets import QWidget, QTableWidget, QTableWidgetItem
+from cbpro.history import get_order_history
 
 
 class PastOrdersFrame(QTableWidget):
@@ -8,6 +9,8 @@ class PastOrdersFrame(QTableWidget):
         self.fill_order_rows()
 
     def fill_order_rows(self):
+        get_order_history()
+
         self.setRowCount(4)
         self.setColumnCount(2)
 
