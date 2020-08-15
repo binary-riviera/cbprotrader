@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QWidget, QTableWidget, QTableWidgetItem
-from cbpro.history import get_order_history
+from cbapi.history import get_order_history
 
 
 class PastOrdersFrame(QTableWidget):
