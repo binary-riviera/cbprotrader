@@ -4,7 +4,7 @@ from collections import namedtuple
 # api secret
 # key
 
-
+# TODO: maybe cache this value if its being called a lot
 def get_api_details():
     filename = "config.txt"
     f = open(filename, "r")
